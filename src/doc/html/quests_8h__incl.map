@@ -1,0 +1,19 @@
+<map id="quests.h" name="quests.h">
+<area shape="rect" id="node2" href="$jsonhandler_8h.html" title="A class that allows us to perform queries on the json file or a json object. " alt="" coords="3513,453,3612,480"/>
+<area shape="rect" id="node17" href="$g1__setup_8h_source.html" title="g1_setup.h" alt="" coords="2949,80,3035,107"/>
+<area shape="rect" id="node21" href="$gamelost_8h_source.html" title="gamelost.h" alt="" coords="2474,155,2561,181"/>
+<area shape="rect" id="node44" href="$noturns_8h_source.html" title="noturns.h" alt="" coords="2954,155,3030,181"/>
+<area shape="rect" id="node22" href="$g1__startmenu_8h.html" title="the start menu of Battleships " alt="" coords="2853,229,2965,256"/>
+<area shape="rect" id="node30" href="$centering_8h_source.html" title="centering.h" alt="" coords="2190,304,2277,331"/>
+<area shape="rect" id="node31" href="$g2__setup_8h_source.html" title="g2_setup.h" alt="" coords="1501,304,1587,331"/>
+<area shape="rect" id="node42" href="$g2__startmenu_8h.html" title="the start menu of Shooting Disks " alt="" coords="2411,229,2523,256"/>
+<area shape="rect" id="node23" href="$account_8h.html" title="the account widget " alt="" coords="2909,304,2987,331"/>
+<area shape="rect" id="node29" href="$g1__info_8h.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="3308,304,3383,331"/>
+<area shape="rect" id="node24" href="$account__sidebar_8h.html" title="This widget constructs the sidebar of the account widget. " alt="" coords="2872,379,3000,405"/>
+<area shape="rect" id="node25" href="$account__dashboard_8h.html" title="the account_dashboard widget " alt="" coords="3176,379,3323,405"/>
+<area shape="rect" id="node36" href="$butg_8h.html" title="the green disk in game 2 " alt="" coords="757,379,816,405"/>
+<area shape="rect" id="node39" href="$butblack_8h.html" title="the grey disk in game 2 " alt="" coords="917,453,1000,480"/>
+<area shape="rect" id="node40" href="$butp_8h.html" title="the purple disk in game 2 " alt="" coords="1135,379,1193,405"/>
+<area shape="rect" id="node41" href="$butb_8h.html" title="the blue disk in game 2 " alt="" coords="855,379,913,405"/>
+<area shape="rect" id="node43" href="$g2__settings_8h.html" title="This class creates the settings QWidget for Shooting discs. In the settings, the user can change the ..." alt="" coords="2595,379,2695,405"/>
+</map>

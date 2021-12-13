@@ -1,0 +1,123 @@
+\hypertarget{classtimeUp}{}\section{time\+Up Class Reference}
+\label{classtimeUp}\index{time\+Up@{time\+Up}}
+
+
+Inheritance diagram for time\+Up\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=135pt]{classtimeUp__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for time\+Up\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classtimeUp__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtimeUp_a462717224a7754296209355928f97ab1}{time\+Up} (Q\+Widget $\ast$parent=nullptr, Q\+Json\+Object json=\{\}, int score\+Num=0, Q\+String game\+Id=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em \hyperlink{classtimeUp}{time\+Up} constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtimeUp_afed188f978febdadc9c51ca2b510dedf}\label{classtimeUp_afed188f978febdadc9c51ca2b510dedf}} 
+void \hyperlink{classtimeUp_afed188f978febdadc9c51ca2b510dedf}{init\+Bg} ()
+\begin{DoxyCompactList}\small\item\em Initializes the bg of the widget. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classtimeUp_a050a9325077406b54bc32c332952327f}\label{classtimeUp_a050a9325077406b54bc32c332952327f}} 
+void \hyperlink{classtimeUp_a050a9325077406b54bc32c332952327f}{check\+Score} ()
+\begin{DoxyCompactList}\small\item\em checks if the score is a new highscore. If the condition is true, display congrats Q\+Label. \end{DoxyCompactList}\item 
+int \hyperlink{classtimeUp_ae248b5d925d67ef28cb795147d260a93}{compute\+Bonus} ()
+\begin{DoxyCompactList}\small\item\em compute\+Bonus, computes the bonus points a user gets in game 2 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtimeUp_ab10c6a95b213c06f95a289eb2a6c188e}\label{classtimeUp_ab10c6a95b213c06f95a289eb2a6c188e}} 
+Q\+Json\+Object {\bfseries user\+Json}
+\item 
+\mbox{\Hypertarget{classtimeUp_a7c9045116d3a37e932441ae11e159ec6}\label{classtimeUp_a7c9045116d3a37e932441ae11e159ec6}} 
+Q\+Label $\ast$ {\bfseries title}
+\item 
+\mbox{\Hypertarget{classtimeUp_ae5fd47a31b619e0a1f00234be0afbda5}\label{classtimeUp_ae5fd47a31b619e0a1f00234be0afbda5}} 
+Q\+Label $\ast$ {\bfseries congrats}
+\item 
+\mbox{\Hypertarget{classtimeUp_a879a5bdb9943496d035c2b6a7ce97ad3}\label{classtimeUp_a879a5bdb9943496d035c2b6a7ce97ad3}} 
+Q\+Label $\ast$ {\bfseries text}
+\item 
+\mbox{\Hypertarget{classtimeUp_adf2f4aa5469966f4f154c120d7a72227}\label{classtimeUp_adf2f4aa5469966f4f154c120d7a72227}} 
+int {\bfseries score}
+\item 
+\mbox{\Hypertarget{classtimeUp_a5e31d3b089b22171726ed58df6c82041}\label{classtimeUp_a5e31d3b089b22171726ed58df6c82041}} 
+Q\+String {\bfseries ID}
+\item 
+\mbox{\Hypertarget{classtimeUp_a61e7b1c71590020859f4a21b4b9af244}\label{classtimeUp_a61e7b1c71590020859f4a21b4b9af244}} 
+Q\+Push\+Button $\ast$ {\bfseries exit\+Btn}
+\item 
+\mbox{\Hypertarget{classtimeUp_aca9594fa2b0e29fb397d2fb97d98b1e5}\label{classtimeUp_aca9594fa2b0e29fb397d2fb97d98b1e5}} 
+Q\+V\+Box\+Layout $\ast$ {\bfseries v\+Layout}
+\item 
+\mbox{\Hypertarget{classtimeUp_a7569031bed14ca848099c05d2a5fd1a5}\label{classtimeUp_a7569031bed14ca848099c05d2a5fd1a5}} 
+\hyperlink{classjsonhandler}{jsonhandler} $\ast$ {\bfseries jh} = new \hyperlink{classjsonhandler}{jsonhandler}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtimeUp_a462717224a7754296209355928f97ab1}\label{classtimeUp_a462717224a7754296209355928f97ab1}} 
+\index{time\+Up@{time\+Up}!time\+Up@{time\+Up}}
+\index{time\+Up@{time\+Up}!time\+Up@{time\+Up}}
+\subsubsection{\texorpdfstring{time\+Up()}{timeUp()}}
+{\footnotesize\ttfamily time\+Up\+::time\+Up (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr},  }\item[{Q\+Json\+Object}]{json = {\ttfamily \{\}},  }\item[{int}]{score\+Num = {\ttfamily 0},  }\item[{Q\+String}]{game\+Id = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+\hyperlink{classtimeUp}{time\+Up} constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent,a} & pointer to a Q\+Widget parent \\
+\hline
+{\em json,a} & Q\+Json\+Object for a given user \\
+\hline
+{\em score\+Num,the} & player\textquotesingle{}s score. \\
+\hline
+{\em game\+Id,the} & game\textquotesingle{}s Id.\\
+\hline
+{\em parent,a} & pointer to a Q\+Widget parent \\
+\hline
+{\em json,a} & Q\+Json\+Object for a given user \\
+\hline
+{\em score\+Num,the} & player\textquotesingle{}s score. \\
+\hline
+{\em game\+Id,Q\+String} & that specifies which game is being played. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtimeUp_ae248b5d925d67ef28cb795147d260a93}\label{classtimeUp_ae248b5d925d67ef28cb795147d260a93}} 
+\index{time\+Up@{time\+Up}!compute\+Bonus@{compute\+Bonus}}
+\index{compute\+Bonus@{compute\+Bonus}!time\+Up@{time\+Up}}
+\subsubsection{\texorpdfstring{compute\+Bonus()}{computeBonus()}}
+{\footnotesize\ttfamily int time\+Up\+::compute\+Bonus (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+compute\+Bonus, computes the bonus points a user gets in game 2 
+
+\hyperlink{classtimeUp_ae248b5d925d67ef28cb795147d260a93}{time\+Up\+::compute\+Bonus}, computes the bonus points earned in game 2
+
+\begin{DoxyReturn}{Returns}
+an integer, the bonus points. If bonus points is a negative number, it returns 0.
+
+int, the bonus points 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+timeup.\+h\item 
+timeup.\+cpp\end{DoxyCompactItemize}

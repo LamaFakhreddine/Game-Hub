@@ -1,0 +1,40 @@
+QT += widgets
+QT += core
+
+SOURCES += \
+    account.cpp \
+    account_dashboard.cpp \
+    account_sidebar.cpp \
+    main.cpp \
+    playasguest.cpp \
+    scene1.cpp \
+    signinpage.cpp \
+    signuppage.cpp \
+    testing.cpp
+
+HEADERS += \
+<<<<<<< HEAD
+    account.h \
+    account_dashboard.h \
+    account_sidebar.h \
+    nextpage.h \
+    scene1.h \
+    signinpage.h \
+    signuppage.h
+
+RESOURCES += \
+    assets/resources.qrc
+
+DISTFILES += \
+    users
+=======
+    playasguest.h \
+    scene1.h \
+    signinpage.h \
+    signuppage.h \
+    testing.h
+
+DISTFILES += \
+    ../../trial.json \
+    data.json
+>>>>>>> refs/heads/master

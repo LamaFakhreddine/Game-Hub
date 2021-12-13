@@ -1,0 +1,335 @@
+\hypertarget{classjsonhandler}{}\section{jsonhandler Class Reference}
+\label{classjsonhandler}\index{jsonhandler@{jsonhandler}}
+
+
+Inheritance diagram for jsonhandler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=146pt]{classjsonhandler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for jsonhandler\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=146pt]{classjsonhandler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjsonhandler_ac54df4dbf7d14ad39c30d3b7efa8876d}{jsonhandler} (Q\+Object $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em jsonhandler constructor \end{DoxyCompactList}\item 
+Q\+Json\+Array \hyperlink{classjsonhandler_aebc2c7497f32984133a9352d03fd06e7}{read\+File} (Q\+String path)
+\begin{DoxyCompactList}\small\item\em a function that opens a file, reads it, and stores its data in a Q\+J\+Son\+Array \end{DoxyCompactList}\item 
+void \hyperlink{classjsonhandler_a1439109eb8fa7fffde057548afd8e3bb}{write\+File} (Q\+String path)
+\begin{DoxyCompactList}\small\item\em a function that writes to a file \end{DoxyCompactList}\item 
+void \hyperlink{classjsonhandler_a254e472bc7f40602a5287015591309af}{update\+Userarr} (Q\+Json\+Object userjson)
+\begin{DoxyCompactList}\small\item\em a function that updates a user Q\+Json\+Object in jsonhandler\+::userarr \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classjsonhandler_a9bb2dc65754d170a493d60e82cc5ff18}{update\+Bonus} (Q\+Json\+Object userjson, int bonus)
+\begin{DoxyCompactList}\small\item\em update\+Bonus, updates the bonus points of a user in game 2 \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classjsonhandler_a80a0d472fc04d855cc91c3a39185d344}{check\+User} (Q\+String username, Q\+String password)
+\begin{DoxyCompactList}\small\item\em a function that checks whether the username and password match the credentials of the registered user \end{DoxyCompactList}\item 
+bool \hyperlink{classjsonhandler_a3860da83ed54e86300f756f5b66c3d68}{check\+User} (Q\+String username)
+\begin{DoxyCompactList}\small\item\em Overloaded check\+User function that checks if the username is taken or not. \end{DoxyCompactList}\item 
+void \hyperlink{classjsonhandler_a93f4319d533f65208a05f572b4fd1f76}{insert\+User} (Q\+Json\+Object userjson)
+\begin{DoxyCompactList}\small\item\em a function that inserts a new user Q\+Json\+Object in jsonhandler\+::userarr and writes the updated array to data.\+json \end{DoxyCompactList}\item 
+int \hyperlink{classjsonhandler_ad1a3458ade52adb1e44fdf147450f60b}{get\+Highscore} (Q\+Json\+Object userjson, Q\+String game\+Id)
+\begin{DoxyCompactList}\small\item\em gets the highscore of a user in either Battleships or Shooting Discs. \end{DoxyCompactList}\item 
+Q\+Json\+Array \hyperlink{classjsonhandler_aba9044f8e89f6bbe9a136d27062b7358}{get\+Scores\+Arr} (Q\+Json\+Object userjson, Q\+String game\+Id)
+\begin{DoxyCompactList}\small\item\em gets the scores arry of a user in either Battleships or Shooting Discs. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classjsonhandler_a383b010b1318971dc8170d2744f25342}{update\+Scores} (Q\+Json\+Object userjson, int new\+Score, Q\+String game\+Id)
+\begin{DoxyCompactList}\small\item\em adds the new score to the user\textquotesingle{}s scores array in either Battleships or Shooting Discs. \end{DoxyCompactList}\item 
+Q\+Json\+Object \hyperlink{classjsonhandler_ab702fe91f4f95c309d7fed4402b05dcc}{get\+Global\+H\+S\+And\+Rank} (int hs, Q\+String game\+ID)
+\begin{DoxyCompactList}\small\item\em retrieves the global highscore of a game and computes the rank of the player \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classjsonhandler_a3ebc5fcd86eeda6e9b54410986d268fc}{get\+Bg\+Color} (Q\+Json\+Object userjson, Q\+String game\+ID)
+\begin{DoxyCompactList}\small\item\em gets the background color as specified in the game settings in a user\textquotesingle{}s Q\+Json\+Object \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classjsonhandler_ad23eb6976b88403ec2b91f62cff8b0d0}{get\+Bg\+Img} (Q\+Json\+Object userjson, Q\+String game\+ID)
+\begin{DoxyCompactList}\small\item\em get\+Bg\+Img, retrieves the path to the background image in userjson \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classjsonhandler_a9c1236ad63624244d0775d1abec70c7c}\label{classjsonhandler_a9c1236ad63624244d0775d1abec70c7c}} 
+Q\+String {\bfseries user\+Path} = \char`\"{}../repos/lama\+\_\+milia\+\_\+rana/project\+\_\+/data.\+json\char`\"{}
+\item 
+\mbox{\Hypertarget{classjsonhandler_a8f8b279a35cdd398e62dc160b706dcdd}\label{classjsonhandler_a8f8b279a35cdd398e62dc160b706dcdd}} 
+Q\+String {\bfseries quests\+Path} = \char`\"{}../repos/lama\+\_\+milia\+\_\+rana/project\+\_\+/questions.\+json\char`\"{}
+\item 
+\mbox{\Hypertarget{classjsonhandler_a4571bd5c720772f91bcfa6cfbcc0ecfb}\label{classjsonhandler_a4571bd5c720772f91bcfa6cfbcc0ecfb}} 
+Q\+Json\+Array {\bfseries userarr}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classjsonhandler_ac54df4dbf7d14ad39c30d3b7efa8876d}\label{classjsonhandler_ac54df4dbf7d14ad39c30d3b7efa8876d}} 
+\index{jsonhandler@{jsonhandler}!jsonhandler@{jsonhandler}}
+\index{jsonhandler@{jsonhandler}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{jsonhandler()}{jsonhandler()}}
+{\footnotesize\ttfamily jsonhandler\+::jsonhandler (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+jsonhandler constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent,a} & pointer to a Q\+Object, initally a nullptr.\\
+\hline
+\end{DoxyParams}
+The constructor creates an instance of jsonhandler class and calls the readfile function with user\+Path passed as an argument. The result of read\+File is stored in userarr 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classjsonhandler_a80a0d472fc04d855cc91c3a39185d344}\label{classjsonhandler_a80a0d472fc04d855cc91c3a39185d344}} 
+\index{jsonhandler@{jsonhandler}!check\+User@{check\+User}}
+\index{check\+User@{check\+User}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{check\+User()}{checkUser()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Q\+Json\+Object jsonhandler\+::check\+User (\begin{DoxyParamCaption}\item[{Q\+String}]{username,  }\item[{Q\+String}]{password }\end{DoxyParamCaption})}
+
+
+
+a function that checks whether the username and password match the credentials of the registered user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & (Q\+String). \\
+\hline
+{\em password} & (Q\+String). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Json\+Object containing the user with matching username and password. Returns an empty object otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_a3860da83ed54e86300f756f5b66c3d68}\label{classjsonhandler_a3860da83ed54e86300f756f5b66c3d68}} 
+\index{jsonhandler@{jsonhandler}!check\+User@{check\+User}}
+\index{check\+User@{check\+User}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{check\+User()}{checkUser()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool jsonhandler\+::check\+User (\begin{DoxyParamCaption}\item[{Q\+String}]{username }\end{DoxyParamCaption})}
+
+
+
+Overloaded check\+User function that checks if the username is taken or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & (Qstring) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool, true in case the user is taken, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_a3ebc5fcd86eeda6e9b54410986d268fc}\label{classjsonhandler_a3ebc5fcd86eeda6e9b54410986d268fc}} 
+\index{jsonhandler@{jsonhandler}!get\+Bg\+Color@{get\+Bg\+Color}}
+\index{get\+Bg\+Color@{get\+Bg\+Color}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{get\+Bg\+Color()}{getBgColor()}}
+{\footnotesize\ttfamily Q\+String jsonhandler\+::get\+Bg\+Color (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson,  }\item[{Q\+String}]{game\+Id }\end{DoxyParamCaption})}
+
+
+
+gets the background color as specified in the game settings in a user\textquotesingle{}s Q\+Json\+Object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson,a} & Q\+Json\+Object of a given user \\
+\hline
+{\em game\+ID,the} & ID of the game \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+String containing the bg color in the following format \textquotesingle{}\#hexrepresentation\textquotesingle{} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_ad23eb6976b88403ec2b91f62cff8b0d0}\label{classjsonhandler_ad23eb6976b88403ec2b91f62cff8b0d0}} 
+\index{jsonhandler@{jsonhandler}!get\+Bg\+Img@{get\+Bg\+Img}}
+\index{get\+Bg\+Img@{get\+Bg\+Img}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{get\+Bg\+Img()}{getBgImg()}}
+{\footnotesize\ttfamily Q\+String jsonhandler\+::get\+Bg\+Img (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson,  }\item[{Q\+String}]{game\+Id }\end{DoxyParamCaption})}
+
+
+
+get\+Bg\+Img, retrieves the path to the background image in userjson 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson} & \\
+\hline
+{\em game\+ID} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the path to the bg img 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_ab702fe91f4f95c309d7fed4402b05dcc}\label{classjsonhandler_ab702fe91f4f95c309d7fed4402b05dcc}} 
+\index{jsonhandler@{jsonhandler}!get\+Global\+H\+S\+And\+Rank@{get\+Global\+H\+S\+And\+Rank}}
+\index{get\+Global\+H\+S\+And\+Rank@{get\+Global\+H\+S\+And\+Rank}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{get\+Global\+H\+S\+And\+Rank()}{getGlobalHSAndRank()}}
+{\footnotesize\ttfamily Q\+Json\+Object jsonhandler\+::get\+Global\+H\+S\+And\+Rank (\begin{DoxyParamCaption}\item[{int}]{hs,  }\item[{Q\+String}]{game\+ID }\end{DoxyParamCaption})}
+
+
+
+retrieves the global highscore of a game and computes the rank of the player 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hs,int,the} & highscore of the player. \\
+\hline
+{\em game\+ID,the} & ID of the game \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Json\+Object containing the global highscore and player rank. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_ad1a3458ade52adb1e44fdf147450f60b}\label{classjsonhandler_ad1a3458ade52adb1e44fdf147450f60b}} 
+\index{jsonhandler@{jsonhandler}!get\+Highscore@{get\+Highscore}}
+\index{get\+Highscore@{get\+Highscore}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{get\+Highscore()}{getHighscore()}}
+{\footnotesize\ttfamily int jsonhandler\+::get\+Highscore (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson,  }\item[{Q\+String}]{game\+Id }\end{DoxyParamCaption})}
+
+
+
+gets the highscore of a user in either Battleships or Shooting Discs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson,a} & Q\+Json\+Object of a given user. \\
+\hline
+{\em game\+Id,a} & Q\+String containing game ID. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int, the highscore 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_aba9044f8e89f6bbe9a136d27062b7358}\label{classjsonhandler_aba9044f8e89f6bbe9a136d27062b7358}} 
+\index{jsonhandler@{jsonhandler}!get\+Scores\+Arr@{get\+Scores\+Arr}}
+\index{get\+Scores\+Arr@{get\+Scores\+Arr}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{get\+Scores\+Arr()}{getScoresArr()}}
+{\footnotesize\ttfamily Q\+Json\+Array jsonhandler\+::get\+Scores\+Arr (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson,  }\item[{Q\+String}]{game\+Id }\end{DoxyParamCaption})}
+
+
+
+gets the scores arry of a user in either Battleships or Shooting Discs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson,a} & Q\+Json\+Object of a given user. \\
+\hline
+{\em game\+Id,a} & Q\+String containing game ID. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Json\+Array, the scores array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_a93f4319d533f65208a05f572b4fd1f76}\label{classjsonhandler_a93f4319d533f65208a05f572b4fd1f76}} 
+\index{jsonhandler@{jsonhandler}!insert\+User@{insert\+User}}
+\index{insert\+User@{insert\+User}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{insert\+User()}{insertUser()}}
+{\footnotesize\ttfamily void jsonhandler\+::insert\+User (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson }\end{DoxyParamCaption})}
+
+
+
+a function that inserts a new user Q\+Json\+Object in jsonhandler\+::userarr and writes the updated array to data.\+json 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson,the} & new Q\+Json\+Object to be added. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classjsonhandler_aebc2c7497f32984133a9352d03fd06e7}\label{classjsonhandler_aebc2c7497f32984133a9352d03fd06e7}} 
+\index{jsonhandler@{jsonhandler}!read\+File@{read\+File}}
+\index{read\+File@{read\+File}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{read\+File()}{readFile()}}
+{\footnotesize\ttfamily Q\+Json\+Array jsonhandler\+::read\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{path }\end{DoxyParamCaption})}
+
+
+
+a function that opens a file, reads it, and stores its data in a Q\+J\+Son\+Array 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path,a} & Q\+String containing the path to the json file. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Json\+Array containing the result of read\+File. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_a9bb2dc65754d170a493d60e82cc5ff18}\label{classjsonhandler_a9bb2dc65754d170a493d60e82cc5ff18}} 
+\index{jsonhandler@{jsonhandler}!update\+Bonus@{update\+Bonus}}
+\index{update\+Bonus@{update\+Bonus}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{update\+Bonus()}{updateBonus()}}
+{\footnotesize\ttfamily Q\+Json\+Object jsonhandler\+::update\+Bonus (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson,  }\item[{int}]{bonus }\end{DoxyParamCaption})}
+
+
+
+update\+Bonus, updates the bonus points of a user in game 2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson} & \\
+\hline
+{\em bonus} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the new updated json object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_a383b010b1318971dc8170d2744f25342}\label{classjsonhandler_a383b010b1318971dc8170d2744f25342}} 
+\index{jsonhandler@{jsonhandler}!update\+Scores@{update\+Scores}}
+\index{update\+Scores@{update\+Scores}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{update\+Scores()}{updateScores()}}
+{\footnotesize\ttfamily Q\+Json\+Object jsonhandler\+::update\+Scores (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson,  }\item[{int}]{new\+Score,  }\item[{Q\+String}]{game\+Id }\end{DoxyParamCaption})}
+
+
+
+adds the new score to the user\textquotesingle{}s scores array in either Battleships or Shooting Discs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson,a} & Q\+Json\+Object of a given user. \\
+\hline
+{\em new\+Score,int,the} & new score. \\
+\hline
+{\em game\+Id,a} & Q\+String containing game ID. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Json\+Array, the updated scores array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classjsonhandler_a254e472bc7f40602a5287015591309af}\label{classjsonhandler_a254e472bc7f40602a5287015591309af}} 
+\index{jsonhandler@{jsonhandler}!update\+Userarr@{update\+Userarr}}
+\index{update\+Userarr@{update\+Userarr}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{update\+Userarr()}{updateUserarr()}}
+{\footnotesize\ttfamily void jsonhandler\+::update\+Userarr (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{userjson }\end{DoxyParamCaption})}
+
+
+
+a function that updates a user Q\+Json\+Object in jsonhandler\+::userarr 
+
+
+\begin{DoxyParams}{Parameters}
+{\em userjson,the} & Q\+Json\+Object to be updated. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classjsonhandler_a1439109eb8fa7fffde057548afd8e3bb}\label{classjsonhandler_a1439109eb8fa7fffde057548afd8e3bb}} 
+\index{jsonhandler@{jsonhandler}!write\+File@{write\+File}}
+\index{write\+File@{write\+File}!jsonhandler@{jsonhandler}}
+\subsubsection{\texorpdfstring{write\+File()}{writeFile()}}
+{\footnotesize\ttfamily void jsonhandler\+::write\+File (\begin{DoxyParamCaption}\item[{Q\+String}]{path }\end{DoxyParamCaption})}
+
+
+
+a function that writes to a file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path,a} & Q\+String containing the path to the json file. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{jsonhandler_8h}{jsonhandler.\+h}\item 
+\hyperlink{jsonhandler_8cpp}{jsonhandler.\+cpp}\end{DoxyCompactItemize}

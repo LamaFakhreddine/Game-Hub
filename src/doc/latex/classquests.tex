@@ -1,0 +1,233 @@
+\hypertarget{classquests}{}\section{quests Class Reference}
+\label{classquests}\index{quests@{quests}}
+
+
+Inheritance diagram for quests\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=132pt]{classquests__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for quests\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{classquests__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classquests_a2fd07763aff26aae5036acb169719fff}\label{classquests_a2fd07763aff26aae5036acb169719fff}} 
+void \hyperlink{classquests_a2fd07763aff26aae5036acb169719fff}{checkanswer1} ()
+\begin{DoxyCompactList}\small\item\em checks whether the chosen pushbutton contains the correct answer. The function displays wrng Q\+Message\+Box in case the answer is incorrect and right Q\+Message\+Box otherwise. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classquests_aff4a72bbc6183f358be72359f576ffed}\label{classquests_aff4a72bbc6183f358be72359f576ffed}} 
+void \hyperlink{classquests_aff4a72bbc6183f358be72359f576ffed}{checkanswer2} ()
+\begin{DoxyCompactList}\small\item\em checks whether the chosen pushbutton contains the correct answer. The function displays wrng Q\+Message\+Box in case the answer is incorrect and right Q\+Message\+Box otherwise. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classquests_aa40aba6d49a76ce0f3110046b0c0f72e}\label{classquests_aa40aba6d49a76ce0f3110046b0c0f72e}} 
+void \hyperlink{classquests_aa40aba6d49a76ce0f3110046b0c0f72e}{checkanswer3} ()
+\begin{DoxyCompactList}\small\item\em checks whether the chosen pushbutton contains the correct answer. The function displays wrng Q\+Message\+Box in case the answer is incorrect and right Q\+Message\+Box otherwise. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classquests_a4b75d0858f37450128457d565afe4411}\label{classquests_a4b75d0858f37450128457d565afe4411}} 
+void \hyperlink{classquests_a4b75d0858f37450128457d565afe4411}{checkanswer4} ()
+\begin{DoxyCompactList}\small\item\em checks whether the chosen pushbutton contains the correct answer. The function displays wrng Q\+Message\+Box in case the answer is incorrect and right Q\+Message\+Box otherwise. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classquests_a54541119f891382cdda66b247edc090b}{quests} (Q\+Widget $\ast$parent=nullptr, Q\+Json\+Object json=\{\}, int count=0)
+\begin{DoxyCompactList}\small\item\em quests constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classquests_a3b538c389f15ef6f79fdcdf114b27392}\label{classquests_a3b538c389f15ef6f79fdcdf114b27392}} 
+void \hyperlink{classquests_a3b538c389f15ef6f79fdcdf114b27392}{create\+Ans\+Box} ()
+\begin{DoxyCompactList}\small\item\em sets the widget of the answers layout \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classquests_aca51e37f6ef603d3caaff95661eed638}\label{classquests_aca51e37f6ef603d3caaff95661eed638}} 
+void \hyperlink{classquests_aca51e37f6ef603d3caaff95661eed638}{set\+Grid\+Layout} ()
+\begin{DoxyCompactList}\small\item\em sets the widgets of the grid layout \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classquests_a99d693e004d57fbea81a6ef92d843e32}{mapdiff} (int d)
+\begin{DoxyCompactList}\small\item\em maps an integer to the corresponding difficulty \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classquests_a360c52960fcebef73ffd987d5fe0cefc}{maptop} (int t)
+\begin{DoxyCompactList}\small\item\em maps an integer to the corresponding topic \end{DoxyCompactList}\item 
+Q\+Json\+Array \hyperlink{classquests_a1c75a4a0a1e429e5ed5b0a7c08a842cf}{getquest} (Q\+String d, Q\+String t)
+\begin{DoxyCompactList}\small\item\em Retrieves array of questions of a difficulty d and topic t. \end{DoxyCompactList}\item 
+void \hyperlink{classquests_a63b57d7fc7d4aa382da23d9a4592545e}{setquests} (Q\+Json\+Object quest)
+\begin{DoxyCompactList}\small\item\em Sets the question in the Q\+Dialog. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classquests_a16ce1db433118576119829773238ce9d}\label{classquests_a16ce1db433118576119829773238ce9d}} 
+void \hyperlink{classquests_a16ce1db433118576119829773238ce9d}{init\+Bg} ()
+\begin{DoxyCompactList}\small\item\em initializes the background color of the Q\+Widget as specified in user\+Json. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classquests_aa58db97f90f7d77495e3750c450e533c}\label{classquests_aa58db97f90f7d77495e3750c450e533c}} 
+Q\+Label $\ast$ {\bfseries header}
+\item 
+\mbox{\Hypertarget{classquests_ae0a96f896587cf2043b360a97f4b95ad}\label{classquests_ae0a96f896587cf2043b360a97f4b95ad}} 
+Q\+Label $\ast$ {\bfseries quest}
+\item 
+\mbox{\Hypertarget{classquests_a956d257814ab4e01dd9f91e4d71d299b}\label{classquests_a956d257814ab4e01dd9f91e4d71d299b}} 
+Q\+Label $\ast$ {\bfseries game\+Logo}
+\item 
+\mbox{\Hypertarget{classquests_aab2ce8f5dd85b3e251c837b96c60adbd}\label{classquests_aab2ce8f5dd85b3e251c837b96c60adbd}} 
+Q\+Push\+Button $\ast$ {\bfseries ans1}
+\item 
+\mbox{\Hypertarget{classquests_a42189647665b2c31467cf49a198b54f2}\label{classquests_a42189647665b2c31467cf49a198b54f2}} 
+Q\+Push\+Button $\ast$ {\bfseries ans2}
+\item 
+\mbox{\Hypertarget{classquests_ae174be4fedfbcb58258ee99be0e40710}\label{classquests_ae174be4fedfbcb58258ee99be0e40710}} 
+Q\+Push\+Button $\ast$ {\bfseries ans3}
+\item 
+\mbox{\Hypertarget{classquests_abf4710f0355ff4f855eed8e60aa6448d}\label{classquests_abf4710f0355ff4f855eed8e60aa6448d}} 
+Q\+Push\+Button $\ast$ {\bfseries ans4}
+\item 
+\mbox{\Hypertarget{classquests_a3985547756756f4cb50c4f325d0570f1}\label{classquests_a3985547756756f4cb50c4f325d0570f1}} 
+Q\+V\+Box\+Layout $\ast$ {\bfseries answers}
+\item 
+\mbox{\Hypertarget{classquests_a501906613e3cb0b0495d1e1555acc7f6}\label{classquests_a501906613e3cb0b0495d1e1555acc7f6}} 
+Q\+Group\+Box $\ast$ {\bfseries anslayout}
+\item 
+\mbox{\Hypertarget{classquests_a3f41c744bd533dcaecfe417f32b2dde4}\label{classquests_a3f41c744bd533dcaecfe417f32b2dde4}} 
+Q\+Grid\+Layout $\ast$ {\bfseries grid}
+\item 
+\mbox{\Hypertarget{classquests_a61ca158a7d38808821f4577430224c8b}\label{classquests_a61ca158a7d38808821f4577430224c8b}} 
+Q\+Message\+Box $\ast$ {\bfseries wrng}
+\item 
+\mbox{\Hypertarget{classquests_aed233508111a85b2a0fa29ea0b467414}\label{classquests_aed233508111a85b2a0fa29ea0b467414}} 
+Q\+Message\+Box $\ast$ {\bfseries right}
+\item 
+\mbox{\Hypertarget{classquests_aa76fcb10663af9f33ab7db4510ca8b43}\label{classquests_aa76fcb10663af9f33ab7db4510ca8b43}} 
+Q\+Push\+Button $\ast$ {\bfseries cont}
+\item 
+\mbox{\Hypertarget{classquests_a57494db64b7534f0115d3c23a0605ed9}\label{classquests_a57494db64b7534f0115d3c23a0605ed9}} 
+int {\bfseries diff}
+\item 
+\mbox{\Hypertarget{classquests_a476e29551a2b193da15696909258e528}\label{classquests_a476e29551a2b193da15696909258e528}} 
+int {\bfseries top}
+\item 
+\mbox{\Hypertarget{classquests_aab0abd39005660685421869e31fd9787}\label{classquests_aab0abd39005660685421869e31fd9787}} 
+Q\+String {\bfseries topstr}
+\item 
+\mbox{\Hypertarget{classquests_ae62ee81de89c87281fecb2f1a6e908b8}\label{classquests_ae62ee81de89c87281fecb2f1a6e908b8}} 
+Q\+String {\bfseries diffstr}
+\item 
+\mbox{\Hypertarget{classquests_a8a26e27c9a3a7546cc5f7ac423ad390f}\label{classquests_a8a26e27c9a3a7546cc5f7ac423ad390f}} 
+bool {\bfseries check\+Ans} = false
+\item 
+\mbox{\Hypertarget{classquests_abe054cb4aec7857fa3825ed71401cd50}\label{classquests_abe054cb4aec7857fa3825ed71401cd50}} 
+\hyperlink{classjsonhandler}{jsonhandler} $\ast$ {\bfseries reading}
+\item 
+\mbox{\Hypertarget{classquests_af057143e74e88b01a61dd27492df0359}\label{classquests_af057143e74e88b01a61dd27492df0359}} 
+Q\+Json\+Object {\bfseries topic\+Obj}
+\item 
+\mbox{\Hypertarget{classquests_aa57fba21458dc3db49042c8596d33c1e}\label{classquests_aa57fba21458dc3db49042c8596d33c1e}} 
+Q\+Json\+Array {\bfseries questarr}
+\item 
+\mbox{\Hypertarget{classquests_ac7598d5e31f0531fb63451f4693ea8a4}\label{classquests_ac7598d5e31f0531fb63451f4693ea8a4}} 
+Q\+Json\+Object {\bfseries user\+Json}
+\item 
+\mbox{\Hypertarget{classquests_adb7f576cd1a17da6b4f930f9e996cb6e}\label{classquests_adb7f576cd1a17da6b4f930f9e996cb6e}} 
+Q\+Json\+Object {\bfseries toset}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classquests_a54541119f891382cdda66b247edc090b}\label{classquests_a54541119f891382cdda66b247edc090b}} 
+\index{quests@{quests}!quests@{quests}}
+\index{quests@{quests}!quests@{quests}}
+\subsubsection{\texorpdfstring{quests()}{quests()}}
+{\footnotesize\ttfamily quests\+::quests (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr},  }\item[{Q\+Json\+Object}]{json = {\ttfamily \{\}},  }\item[{int}]{count = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+quests constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent,a} & pointer to a parent Q\+Widget, initialized to a nullptr \\
+\hline
+{\em json,a} & Q\+Json\+Object of a given user. \\
+\hline
+{\em count,an} & int specificying the index of the question to be set \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classquests_a1c75a4a0a1e429e5ed5b0a7c08a842cf}\label{classquests_a1c75a4a0a1e429e5ed5b0a7c08a842cf}} 
+\index{quests@{quests}!getquest@{getquest}}
+\index{getquest@{getquest}!quests@{quests}}
+\subsubsection{\texorpdfstring{getquest()}{getquest()}}
+{\footnotesize\ttfamily Q\+Json\+Array quests\+::getquest (\begin{DoxyParamCaption}\item[{Q\+String}]{d,  }\item[{Q\+String}]{t }\end{DoxyParamCaption})}
+
+
+
+Retrieves array of questions of a difficulty d and topic t. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d,a} & Q\+String that specifies the level of difficulty of the questions \\
+\hline
+{\em t,a} & Q\+String that specifies the topic of the questions \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Json\+Array that contains the questions. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classquests_a99d693e004d57fbea81a6ef92d843e32}\label{classquests_a99d693e004d57fbea81a6ef92d843e32}} 
+\index{quests@{quests}!mapdiff@{mapdiff}}
+\index{mapdiff@{mapdiff}!quests@{quests}}
+\subsubsection{\texorpdfstring{mapdiff()}{mapdiff()}}
+{\footnotesize\ttfamily Q\+String quests\+::mapdiff (\begin{DoxyParamCaption}\item[{int}]{d }\end{DoxyParamCaption})}
+
+
+
+maps an integer to the corresponding difficulty 
+
+
+\begin{DoxyParams}{Parameters}
+{\em d,An} & int indicating the difficulty level extracted from user\+Json \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+String containing the name of the difficulty level 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classquests_a360c52960fcebef73ffd987d5fe0cefc}\label{classquests_a360c52960fcebef73ffd987d5fe0cefc}} 
+\index{quests@{quests}!maptop@{maptop}}
+\index{maptop@{maptop}!quests@{quests}}
+\subsubsection{\texorpdfstring{maptop()}{maptop()}}
+{\footnotesize\ttfamily Q\+String quests\+::maptop (\begin{DoxyParamCaption}\item[{int}]{t }\end{DoxyParamCaption})}
+
+
+
+maps an integer to the corresponding topic 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t,An} & int indicating the topic extracted from user\+Json \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+String containing the name of the topic 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classquests_a63b57d7fc7d4aa382da23d9a4592545e}\label{classquests_a63b57d7fc7d4aa382da23d9a4592545e}} 
+\index{quests@{quests}!setquests@{setquests}}
+\index{setquests@{setquests}!quests@{quests}}
+\subsubsection{\texorpdfstring{setquests()}{setquests()}}
+{\footnotesize\ttfamily void quests\+::setquests (\begin{DoxyParamCaption}\item[{Q\+Json\+Object}]{q }\end{DoxyParamCaption})}
+
+
+
+Sets the question in the Q\+Dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quest,a} & Q\+Json\+Object containing a single question. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{quests_8h}{quests.\+h}\item 
+\hyperlink{quests_8cpp}{quests.\+cpp}\end{DoxyCompactItemize}

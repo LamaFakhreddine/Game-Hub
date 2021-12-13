@@ -1,0 +1,23 @@
+<map id="butblack.h" name="butblack.h">
+<area shape="rect" id="node2" href="$butg_8h.html" title="the green disk in game 2 " alt="" coords="638,80,697,107"/>
+<area shape="rect" id="node3" href="$g2__setup_8h_source.html" title="g2_setup.h" alt="" coords="475,155,561,181"/>
+<area shape="rect" id="node18" href="$butp_8h.html" title="the purple disk in game 2 " alt="" coords="422,80,481,107"/>
+<area shape="rect" id="node20" href="$butb_8h.html" title="the blue disk in game 2 " alt="" coords="555,80,614,107"/>
+<area shape="rect" id="node22" href="$butblack_8cpp.html" title="the grey disk in game 2 " alt="" coords="721,80,817,107"/>
+<area shape="rect" id="node17" href="$butg_8cpp.html" title="the green disk in game 2 " alt="" coords="682,155,754,181"/>
+<area shape="rect" id="node4" href="$gamelost_8h_source.html" title="gamelost.h" alt="" coords="421,304,508,331"/>
+<area shape="rect" id="node15" href="$g2__startmenu_8h.html" title="the start menu of Shooting Disks " alt="" coords="514,229,626,256"/>
+<area shape="rect" id="node16" href="$g2__settings_8cpp.html" title="This class creates the settings QWidget for Shooting discs. In the settings, the user can change the ..." alt="" coords="606,304,721,331"/>
+<area shape="rect" id="node5" href="$g1__setup_8h_source.html" title="g1_setup.h" alt="" coords="191,379,277,405"/>
+<area shape="rect" id="node6" href="$g1__info_8h.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="313,453,387,480"/>
+<area shape="rect" id="node9" href="$noturns_8h_source.html" title="noturns.h" alt="" coords="5,603,81,629"/>
+<area shape="rect" id="node10" href="$gamewon_8h_source.html" title="gamewon.h" alt="" coords="161,603,251,629"/>
+<area shape="rect" id="node11" href="$g1__startmenu_8cpp.html" title="the start menu of Battleships " alt="" coords="292,603,419,629"/>
+<area shape="rect" id="node13" href="$quests_8h.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="198,453,270,480"/>
+<area shape="rect" id="node7" href="$g1__startmenu_8h.html" title="the start menu of Battleships " alt="" coords="419,528,531,555"/>
+<area shape="rect" id="node12" href="$g1__info_8cpp.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="305,528,395,555"/>
+<area shape="rect" id="node8" href="$account__sidebar_8cpp.html" title="This widget constructs the sidebar of the account widget. " alt="" coords="451,603,593,629"/>
+<area shape="rect" id="node14" href="$quests_8cpp.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="195,528,281,555"/>
+<area shape="rect" id="node19" href="$butp_8cpp.html" title="the purple disk in game 2 " alt="" coords="378,155,450,181"/>
+<area shape="rect" id="node21" href="$butb_8cpp.html" title="the blue disk in game 2 " alt="" coords="586,155,658,181"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="account_sidebar.h" name="account_sidebar.h">
+<area shape="rect" id="node2" href="$account_8h.html" title="the account widget " alt="" coords="323,80,402,107"/>
+<area shape="rect" id="node4" href="$account__sidebar_8cpp.html" title="This widget constructs the sidebar of the account widget. " alt="" coords="82,453,225,480"/>
+<area shape="rect" id="node3" href="$account_8cpp.html" title="the account widget " alt="" coords="43,155,136,181"/>
+<area shape="rect" id="node5" href="$g1__startmenu_8h.html" title="the start menu of Battleships " alt="" coords="413,155,525,181"/>
+<area shape="rect" id="node14" href="$g1__startmenu_8cpp.html" title="the start menu of Battleships " alt="" coords="825,379,951,405"/>
+<area shape="rect" id="node16" href="$g2__startmenu_8h.html" title="the start menu of Shooting Disks " alt="" coords="229,379,341,405"/>
+<area shape="rect" id="node18" href="$signuppage_8h_source.html" title="signuppage.h" alt="" coords="771,155,869,181"/>
+<area shape="rect" id="node19" href="$signinpage_8h_source.html" title="signinpage.h" alt="" coords="894,155,989,181"/>
+<area shape="rect" id="node6" href="$gamelost_8h_source.html" title="gamelost.h" alt="" coords="345,229,431,256"/>
+<area shape="rect" id="node12" href="$noturns_8h_source.html" title="noturns.h" alt="" coords="611,379,687,405"/>
+<area shape="rect" id="node13" href="$gamewon_8h_source.html" title="gamewon.h" alt="" coords="711,379,801,405"/>
+<area shape="rect" id="node7" href="$g1__setup_8h_source.html" title="g1_setup.h" alt="" coords="507,304,594,331"/>
+<area shape="rect" id="node15" href="$g2__setup_8h_source.html" title="g2_setup.h" alt="" coords="345,304,431,331"/>
+<area shape="rect" id="node8" href="$g1__info_8h.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="416,379,491,405"/>
+<area shape="rect" id="node10" href="$quests_8h.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="515,379,587,405"/>
+<area shape="rect" id="node9" href="$g1__info_8cpp.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="401,453,490,480"/>
+<area shape="rect" id="node11" href="$quests_8cpp.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="514,453,601,480"/>
+<area shape="rect" id="node17" href="$g2__settings_8cpp.html" title="This class creates the settings QWidget for Shooting discs. In the settings, the user can change the ..." alt="" coords="257,453,372,480"/>
+</map>

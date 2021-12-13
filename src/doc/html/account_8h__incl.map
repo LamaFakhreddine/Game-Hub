@@ -1,0 +1,5 @@
+<map id="account.h" name="account.h">
+<area shape="rect" id="node5" href="$account__sidebar_8h.html" title="This widget constructs the sidebar of the account widget. " alt="" coords="54,80,182,107"/>
+<area shape="rect" id="node7" href="$account__dashboard_8h.html" title="the account_dashboard widget " alt="" coords="357,80,503,107"/>
+<area shape="rect" id="node11" href="$jsonhandler_8h.html" title="A class that allows us to perform queries on the json file or a json object. " alt="" coords="530,155,629,181"/>
+</map>

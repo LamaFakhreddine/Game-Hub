@@ -1,0 +1,15 @@
+<map id="g2_startmenu.h" name="g2_startmenu.h">
+<area shape="rect" id="node2" href="$gamelost_8h_source.html" title="gamelost.h" alt="" coords="424,80,511,107"/>
+<area shape="rect" id="node6" href="$account__sidebar_8cpp.html" title="This widget constructs the sidebar of the account widget. " alt="" coords="5,379,148,405"/>
+<area shape="rect" id="node14" href="$g2__settings_8cpp.html" title="This class creates the settings QWidget for Shooting discs. In the settings, the user can change the ..." alt="" coords="650,229,765,256"/>
+<area shape="rect" id="node3" href="$g1__setup_8h_source.html" title="g1_setup.h" alt="" coords="417,155,504,181"/>
+<area shape="rect" id="node13" href="$g2__setup_8h_source.html" title="g2_setup.h" alt="" coords="528,155,615,181"/>
+<area shape="rect" id="node4" href="$g1__info_8h.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="307,229,382,256"/>
+<area shape="rect" id="node7" href="$noturns_8h_source.html" title="noturns.h" alt="" coords="563,379,639,405"/>
+<area shape="rect" id="node8" href="$gamewon_8h_source.html" title="gamewon.h" alt="" coords="173,379,263,405"/>
+<area shape="rect" id="node9" href="$g1__startmenu_8cpp.html" title="the start menu of Battleships " alt="" coords="349,379,476,405"/>
+<area shape="rect" id="node11" href="$quests_8h.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="425,229,497,256"/>
+<area shape="rect" id="node5" href="$g1__startmenu_8h.html" title="the start menu of Battleships " alt="" coords="163,304,275,331"/>
+<area shape="rect" id="node10" href="$g1__info_8cpp.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="300,304,389,331"/>
+<area shape="rect" id="node12" href="$quests_8cpp.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="413,304,500,331"/>
+</map>

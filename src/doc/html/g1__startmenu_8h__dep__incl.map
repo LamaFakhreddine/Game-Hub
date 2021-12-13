@@ -1,0 +1,15 @@
+<map id="g1_startmenu.h" name="g1_startmenu.h">
+<area shape="rect" id="node2" href="$account__sidebar_8cpp.html" title="This widget constructs the sidebar of the account widget. " alt="" coords="5,304,148,331"/>
+<area shape="rect" id="node3" href="$gamelost_8h_source.html" title="gamelost.h" alt="" coords="237,80,324,107"/>
+<area shape="rect" id="node9" href="$noturns_8h_source.html" title="noturns.h" alt="" coords="509,229,585,256"/>
+<area shape="rect" id="node10" href="$gamewon_8h_source.html" title="gamewon.h" alt="" coords="609,229,699,256"/>
+<area shape="rect" id="node11" href="$g1__startmenu_8cpp.html" title="the start menu of Battleships " alt="" coords="723,229,849,256"/>
+<area shape="rect" id="node4" href="$g1__setup_8h_source.html" title="g1_setup.h" alt="" coords="405,155,492,181"/>
+<area shape="rect" id="node12" href="$g2__setup_8h_source.html" title="g2_setup.h" alt="" coords="236,155,323,181"/>
+<area shape="rect" id="node5" href="$g1__info_8h.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="314,229,389,256"/>
+<area shape="rect" id="node7" href="$quests_8h.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="413,229,485,256"/>
+<area shape="rect" id="node6" href="$g1__info_8cpp.html" title="this class is a widget that informs the player on how to play Battleships. " alt="" coords="312,304,401,331"/>
+<area shape="rect" id="node8" href="$quests_8cpp.html" title="A class that displays a QDialog of a question in Battleships game This class contains queries to the ..." alt="" coords="425,304,512,331"/>
+<area shape="rect" id="node13" href="$g2__startmenu_8h.html" title="the start menu of Shooting Disks " alt="" coords="127,229,239,256"/>
+<area shape="rect" id="node14" href="$g2__settings_8cpp.html" title="This class creates the settings QWidget for Shooting discs. In the settings, the user can change the ..." alt="" coords="173,304,287,331"/>
+</map>

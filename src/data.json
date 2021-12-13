@@ -1,0 +1,479 @@
+[
+    {
+        "date of birth": "1/1/00",
+        "first name": "lama",
+        "game1": {
+            "highscore": 250,
+            "scores": [
+                100,
+                50,
+                20,
+                120,
+                250
+            ],
+            "settings": {
+                "bg": 0,
+                "difficulty": 2,
+                "topic": 0
+            }
+        },
+        "game2": {
+            "bonus": 0,
+            "highscore": 320,
+            "scores": [
+                200,
+                320,
+                120,
+                80,
+                50,
+                220,
+                101,
+                57,
+                69
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 2,
+                "topic": 0
+            }
+        },
+        "gender": "Female",
+        "last name": "fakh",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+1-1112222",
+        "profile pic": "/home/eece435l/Pictures/PCRxFiEt.jpg",
+        "username": "Llama"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "milia",
+        "game1": {
+            "highscore": 350,
+            "scores": [
+                120,
+                100,
+                300,
+                300,
+                200,
+                250,
+                50,
+                100,
+                0,
+                0,
+                0,
+                0,
+                50,
+                0,
+                0,
+                300,
+                300,
+                350,
+                150,
+                50
+            ],
+            "settings": {
+                "bg": 2,
+                "difficulty": 0,
+                "topic": 2
+            }
+        },
+        "game2": {
+            "bonus": 2,
+            "highscore": 220,
+            "scores": [
+                200,
+                120,
+                80,
+                50,
+                220,
+                102
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Female",
+        "last name": "zeidan",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+20-1122",
+        "profile pic": "/home/eece435l/Pictures/images.jpeg",
+        "username": "kween"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "Carl ",
+        "game1": {
+            "highscore": 350,
+            "scores": [
+                200,
+                100,
+                50,
+                125,
+                0,
+                100,
+                200,
+                200,
+                50,
+                350,
+                150,
+                350,
+                150
+            ],
+            "settings": {
+                "bg": 1,
+                "difficulty": 2,
+                "topic": 1
+            }
+        },
+        "game2": {
+            "bonus": 0,
+            "highscore": 119,
+            "scores": [
+                40,
+                50,
+                119,
+                101,
+                95
+            ],
+            "settings": {
+                "bg": ":/g2b2.webp",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Other",
+        "last name": "faycal ",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+1-2222222",
+        "profile pic": "/home/eece435l/Pictures/PCRxFiEt.jpg",
+        "username": "carlos"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "raz",
+        "game1": {
+            "highscore": 110,
+            "scores": [
+                110,
+                110,
+                70,
+                50,
+                10
+            ],
+            "settings": {
+                "bg": 1,
+                "difficulty": 1,
+                "topic": 2
+            }
+        },
+        "game2": {
+            "highscore": 250,
+            "scores": [
+                150,
+                250,
+                175,
+                100,
+                50
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Female",
+        "last name": "hishi",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+962-22000",
+        "profile pic": "/home/eece435l/Pictures/photo-1529665253569-6d01c0eaf7b6.jpeg",
+        "username": "razyane"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "yakub",
+        "game1": {
+            "highscore": 220,
+            "scores": [
+                200,
+                150,
+                540,
+                110,
+                200,
+                770,
+                200,
+                150,
+                540,
+                110,
+                200,
+                770,
+                200,
+                150,
+                540,
+                110,
+                200,
+                770
+            ],
+            "settings": {
+                "bg": ":/g2b2.webp",
+                "difficulty": 0,
+                "topic": 1
+            }
+        },
+        "game2": {
+            "bonus": 7,
+            "highscore": 120,
+            "scores": [
+                770,
+                240,
+                500,
+                200,
+                150,
+                110,
+                120,
+                103,
+                107
+            ],
+            "settings": {
+                "bg": ":/g2b2.webp",
+                "difficulty": 0,
+                "topic": 1
+            }
+        },
+        "gender": "Other",
+        "last name": "lampej",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+962-999999",
+        "profile pic": "/home/eece435l/Pictures/images.jpeg",
+        "username": "allomighto"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "first",
+        "game1": {
+            "highscore": 600,
+            "scores": [
+                500,
+                600,
+                350,
+                240
+            ],
+            "settings": {
+                "bg": 1,
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "game2": {
+            "highscore": 400,
+            "scores": [
+                400,
+                200,
+                250,
+                240
+            ],
+            "settings": {
+                "bg": ":/g2b2.webp",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Male",
+        "last name": "last",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+1-88119922",
+        "profile pic": "/home/eece435l/Pictures/images.jpeg",
+        "username": "JohnDoe"
+    },
+    {
+        "date of birth": "7/1/00",
+        "first name": "makram",
+        "game1": {
+            "highscore": 110,
+            "scores": [
+                110,
+                110,
+                70,
+                50,
+                10
+            ],
+            "settings": {
+                "bg": 0,
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "game2": {
+            "highscore": 210,
+            "scores": [
+                110,
+                210,
+                70,
+                50,
+                10
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Male",
+        "last name": "boushakra",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+20-3333333",
+        "profile pic": "/home/eece435l/Pictures/photo-1529665253569-6d01c0eaf7b6.jpeg",
+        "username": "Mako"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "tarek ",
+        "game1": {
+            "highscore": 430,
+            "scores": [
+                330,
+                230,
+                120,
+                430
+            ],
+            "settings": {
+                "bg": 0,
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "game2": {
+            "highscore": 100,
+            "scores": [
+                30,
+                10,
+                80,
+                100
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Male",
+        "last name": "saleh ",
+        "password": "h6BvMBVhv5kQ3yRtGxMk",
+        "phone number": "+961-100100",
+        "profile pic": "/home/eece435l/Pictures/photo-1529665253569-6d01c0eaf7b6.jpeg",
+        "username": "pomp rocks in my pants "
+    },
+    {
+        "date of birth": "5/1/96",
+        "first name": "Rana",
+        "game1": {
+            "highscore": 350,
+            "scores": [
+                300,
+                300,
+                100,
+                350
+            ],
+            "settings": {
+                "bg": 2,
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "game2": {
+            "highscore": 73,
+            "scores": [
+                73,
+                18,
+                25,
+                0,
+                0,
+                0
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 2,
+                "topic": 0
+            }
+        },
+        "gender": "Female",
+        "last name": "Hazimeh",
+        "password": "Rono123456",
+        "phone number": "+961-777888999",
+        "profile pic": "/home/eece435l/Downloads/ship.png",
+        "username": "rono"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "yoyo",
+        "game1": {
+            "highscore": 300,
+            "scores": [
+                300
+            ],
+            "settings": {
+                "bg": 2,
+                "difficulty": 1,
+                "topic": 1
+            }
+        },
+        "game2": {
+            "highscore": 0,
+            "scores": [
+            ],
+            "settings": {
+                "bg": ":/g2b1.png",
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "gender": "Female",
+        "last name": "yoyo",
+        "password": "Yoyo123456",
+        "phone number": "+1-88888",
+        "profile pic": "/home/eece435l/Downloads/bigship.png",
+        "username": "yoyo"
+    },
+    {
+        "date of birth": "1/1/00",
+        "first name": "kfk",
+        "game1": {
+            "highscore": 0,
+            "scores": [
+            ],
+            "settings": {
+                "bg": 0,
+                "difficulty": 0,
+                "topic": 0
+            }
+        },
+        "game2": {
+            "bonus": 0,
+            "highscore": 68,
+            "scores": [
+                66,
+                47,
+                68,
+                0,
+                12,
+                13,
+                5,
+                32,
+                3,
+                20,
+                40
+            ],
+            "settings": {
+                "bg": ":/g2b3.jpg",
+                "difficulty": 2
+            }
+        },
+        "gender": "Male",
+        "last name": "kfk",
+        "password": "Kteer12345",
+        "phone number": "+1-666666",
+        "profile pic": "/home/eece435l/repos/repos/lama_milia_rana/project_/assets/questionmark.png",
+        "username": "te3teer"
+    }
+]

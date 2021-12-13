@@ -1,0 +1,706 @@
+[
+   {
+      "basics":{
+         "easy":{
+            "questions":[
+               {
+                  "question":"Which of the following is the correct syntax for adding the header file in the C++ program?",
+                  "answers":[
+                     "#include<userdefined>",
+                     "#include 'userdefined.h'",
+                     "<include> 'userdefined.h'",
+                     "Both A and B"
+                  ],
+                  "answer":"Both A and B"
+               },
+               {
+                  "question":"Which of the following is the correct syntax to print the message in C++ language?",
+                  "answers":[
+                     "cout <<'Hello world!'",
+                     "Cout << Hello world!",
+                     "Out <<'Hello world!",
+                     "None of the above"
+                  ],
+                  "answer":"cout <<'Hello world!'"
+               },
+               {
+                  "question":"Which of the following is the correct identifier?",
+                  "answers":[
+                     "$var_name",
+                     "VAR_123",
+                     "varname@",
+                     "None of the above"
+                  ],
+                  "answer":"VAR_123"
+               },
+               {
+                  "question":"Which of the following is the address operator?",
+                  "answers":[
+                     "@",
+                     "#",
+                     "&",
+                     "%"
+                  ],
+                  "answer":"&"
+               },
+               {
+                  "question":"Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+                  "answers":[
+                     "Encapsulation",
+                     "Inheritance",
+                     "Polymorphism",
+                     "All of the above"
+                  ],
+                  "answer":"All of the above"
+               },
+               {
+                  "question":"The programming language that has the ability to create new data types is called___.",
+                  "answers":[
+                     "Overloaded",
+                     "Encapsulated",
+                     "Reprehensible",
+                     "Extensible"
+                  ],
+                  "answer":"Extensible"
+               },
+               {
+                  "question":"Which of the following comment syntax is correct to create a single-line comment in the C++ program?",
+                  "answers":[
+                     "//Comment",
+                     "/Comment/",
+                     "Comment//",
+                     "None of the above"
+                  ],
+                  "answer":"//Comment"
+               },
+               {
+                  "question":"C++ is a ___ type of language.",
+                  "answers":[
+                     "High-level Language",
+                     "Low-level language",
+                     "Middle-level language",
+                     "None of the above"
+                  ],
+                  "answer":"Middle-level language"
+               },
+               {
+                  "question":"For inserting a new line in C++ program, which one of the following statements can be used?",
+                  "answers":[
+                     "\n",
+                     "\r",
+                     "\\a",
+                     "None of the above"
+                  ],
+                  "answer":"\n"
+               },
+               {
+                  "question":"If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?",
+                  "answers":[
+                     "3",
+                     "5",
+                     "4",
+                     "None of the above"
+                  ],
+                  "answer":"4"
+               }
+            ]
+         },
+         "medium":{
+            "questions":[
+               {
+                  "question":"Which of the following functions below can be used Allocate space for array in memory?",
+                  "answers":[
+                     "calloc()",
+                     "malloc()",
+                     "realloc()",
+                     "Both A and B"
+                  ],
+                  "answer":"Both A and B"
+               },
+               {
+                  "question":"Use of virtual functions implies:",
+                  "answers":[
+                     "overloading",
+                     "overriding",
+                     "static binding",
+                     "dynamic binding"
+                  ],
+                  "answer":"dynamic binding"
+               },
+               {
+                  "question":"Declaration a pointer more than once may cause ____.",
+                  "answers":[
+                     "Error",
+                     "Abort",
+                     "Trap",
+                     "NULL"
+                  ],
+                  "answer":"Trap"
+               },
+               {
+                  "question":"You can read input that consists of multiple lines of text using:",
+                  "answers":[
+                     "the normal cout << combination",
+                     "the cin.get( ) function with one argument",
+                     "the cin.get( ) function with two arguments",
+                     "the cin.get( ) function with three arguments"
+                  ],
+                  "answer":"the cin.get( ) function with two arguments"
+               },
+               {
+                  "question":"The keyword friend does not appear in:",
+                  "answers":[
+                     "the class allowing access to another class",
+                     "the class desiring access to another class",
+                     "the private section of a class",
+                     "the public section of a class"
+                  ],
+                  "answer":"the private section of a class"
+               },
+               {
+                  "question":"Which of the following statements is correct about the formal parameters in C++?",
+                  "answers":[
+                     "Parameters with which functions are called",
+                     "Parameters which are used in the definition of the function",
+                     "Variables other than passed parameters in a function",
+                     "Variables that are never used in the function"
+                  ],
+                  "answer":"Parameters with which functions are called"
+               },
+               {
+                  "question":"An exception is caused by:",
+                  "answers":[
+                     "a runtime error",
+                     "a syntax error",
+                     "a problem in the operating system",
+                     "a hardware problem"
+                  ],
+                  "answer":"a runtime error"
+               }
+            ]
+         },
+         "hard":{
+            "questions":[
+               {
+                  "question":"If a member needs to have a unique value for all the objects of that same class, declare the member as",
+                  "answers":[
+                     "Global variable outside class",
+                     "Local variable inside constructor",
+                     "Static variable inside a class",
+                     "Dynamic variable inside a class"
+                  ],
+                  "answer":"Static variable inside a class"
+               },
+               {
+                  "question":"Which one is not a correct variable type in C++?",
+                  "answers":[
+                     "float",
+                     "real",
+                     "int",
+                     "double"
+                  ],
+                  "answer":"real"
+               },
+               {
+                  "question":"If you wanted to sort many large objects or structures, it would be most efficient to",
+                  "answers":[
+                     "place them in an array & sort the array",
+                     "place pointers to them in an array & sort the array",
+                     "place them in a linked list and sort the linked list",
+                     "place references to them in an array and sorts the array"
+                  ],
+                  "answer":"place them in a linked list and sort the linked list"
+               },
+               {
+                  "question":"A class defined within another class is",
+                  "answers":[
+                     "Nested class",
+                     "Inheritance",
+                     "Containership",
+                     "Encapsulation"
+                  ],
+                  "answer":"Nested class"
+               },
+               {
+                  "question":"Under which of the following circumstances does synchronization take place?",
+                  "answers":[
+                     "When the file is closed",
+                     "When the buffer is empty",
+                     "Explicitly, with manipulators",
+                     "both a and c"
+                  ],
+                  "answer":"When the buffer is empty"
+               },
+               {
+                  "question":"A function call mechanism that passes arguments to a function by passing a copy of the values of the arguments is",
+                  "answers":[
+                     "call by name",
+                     "call by value",
+                     "call by reference",
+                     "call by value result"
+                  ],
+                  "answer":"call by value"
+               },
+               {
+                  "question":"In a C language ‘3’ represents",
+                  "answers":[
+                     "A digit",
+                     "An integer",
+                     "A character",
+                     "A word"
+                  ],
+                  "answer":"A character"
+               }
+            ]
+         }
+      },
+      "structs&funcs":{
+         "easy":{
+            "questions":[
+               {
+                  "question":"Where does the execution of the program start?",
+                  "answers":[
+                     "user-defined function",
+                     "main function",
+                     "void function",
+                     "else function"
+                  ],
+                  "answer":"main function"
+               },
+               {
+                  "question":"What are mandatory parts of a function declaration?",
+                  "answers":[
+                     "return type, function name",
+                     "return type, function name, parameters",
+                     "parameters, function name",
+                     "parameters, variables"
+                  ],
+                  "answer":"return type, function name"
+               },
+               {
+                  "question": "which of the following is used to terminate the function declaration?",
+                  "answers":[
+                     ";",
+                     ")",
+                     "]",
+                     ":"
+                  ],
+                  "answer":";"
+               },
+               {
+                  "question":"In a c99 compiler, what is the maximum number of parameters that can be passed to a function?",
+                  "answers":[
+                     "99",
+                     "90",
+                     "127",
+                     "102"
+                  ],
+                  "answer":"127"
+               },
+               {
+                  "question":"Which is more effective while calling the functions?",
+                  "answers":[
+                     "call by value",
+                     "call by reference",
+                     "call by pointer",
+                     "call by object"
+                  ],
+                  "answer":"call by reference"
+               },
+               {
+                  "question":"What is the scope of a variable declared in a user defined function?",
+                  "answers":[
+                     "whole program",
+                     "only inside the {} block",
+                     "the main function",
+                     "header section"
+                  ],
+                  "answer":"only inside the {} block"
+               },
+               {
+                  "question":"In a C++ program, what is the minimum number of functions allowed?",
+                  "answers":[
+                     "0",
+                     "1",
+                     "2",
+                     "3"
+                  ],
+                  "answer": "1"
+                }
+            ]
+         },
+         "medium":{
+            "questions":[
+               {
+                  "question":"The data elements in the structure are also known as",
+                  "answers":[
+                     "objects",
+                     "members",
+                     "data",
+                     "objects & data"
+                  ],
+                  "answer":"members"
+               },
+               {
+                  "question":"What is used when terminating a structure?",
+                  "answers":[
+                     ":",
+                     "]",
+                     ")",
+                     ";"
+                  ],
+                  "answer":";"
+               },
+               {
+                  "question":"What happens when a structure is declared?",
+                  "answers":[
+                     "it will not allocate any memory",
+                     "it will allocate the memory",
+                     "it will be declared and initialized",
+                     "None of the above"
+                  ],
+                  "answer":"it will not allocate any memory"
+               },
+               {
+                  "question":"The declaration of the structure is also called as",
+                  "answers":[
+                     "structure creator",
+                     "structure signifier",
+                     "structure specifier",
+                     "structure creator & specifier"
+                  ],
+                  "answer":"structure specifier"
+               },
+               {
+                  "question":"Which of the following is a properly defined structure?",
+                  "answers":[
+                     "struct {int a;}",
+                     "struct a_struct {int a;}",
+                     "struct a_struct int a;",
+                     "struct a_struct {int a;};"
+                  ],
+                  "answer":"struct a_struct {int a;};"
+               },
+               {
+                  "question":"Which of the following accesses a variable in structure *b?",
+                  "answers":[
+                     "b->var;",
+                     "b.var;",
+                     "b(var)",
+                     "var(b)"
+                  ],
+                  "answer":"b->var"
+               },
+               {
+                  "question":"What is structure called while coding?",
+                  "answers":[
+                     "str",
+                     "structure",
+                     "struct",
+                     "None of the above"
+                  ],
+                  "answer":"struct"
+               }
+            ]
+         },
+         "hard":{
+            "questions":[
+               {
+                  "question":"Which of the following is the default return value of functions in C++?",
+                  "answers":[
+                     "int",
+                     "void",
+                     "char",
+                     "string"
+                  ],
+                  "answer":"int"
+               },
+               {
+                  "question":"What happens to a function defined inside a class without any complex operations (like looping, a large number of lines, etc)?",
+                  "answers":[
+                     "It becomes a virtual function of the class",
+                     "It becomes a default calling function of the class",
+                     "It becomes an inline function of the class",
+                     "The program gives an error"
+                  ],
+                  "answer":"It becomes an inline function of the class"
+               },
+               {
+                  "question":"What is an inline function?",
+                  "answers":[
+                     "A function that is expanded at each call during execution",
+                     "A function that is called during compile time",
+                     "A function that is not checked for syntax errors",
+                     "A function that is not checked for semantic analysis"
+                  ],
+                  "answer":"A function that is expanded at each call during execution"
+               },
+               {
+                  "question": "An inline function is expanded during",
+                  "answers":[
+                     "compile-time",
+                     "run-time",
+                     "never expanded",
+                     "end of the program"
+                  ],
+                  "answer":"compile-time"
+               },
+               {
+                  "question":"When are the default values of a function defined?",
+                  "answers":[
+                     "When a function is defined",
+                     "When a function is declared",
+                     "When the scope of the function is over",
+                     "When a function is called"
+                  ],
+                  "answer":"When a function is declared"
+               },
+               {
+                  "question":"Where should default parameters appear in a function prototype?",
+                  "answers":[
+                     "To the rightmost side of the parameter list",
+                     "To the leftmost side of the parameter list",
+                     "Anywhere inside the parameter list",
+                     "Middle of the parameter list"
+                  ],
+                  "answer":"To the rightmost side of the parameter list"
+               },
+               {
+                  "question":"If an argument from the parameter list of a function is defined constant then",
+                  "answers":[
+                     "It can be modified inside the function",
+                     "It cannot be modified inside the function",
+                     "Error occurs",
+                     "Segmentation fault"
+                  ],
+                  "answer":"It cannot be modified inside the function"
+               }
+            ]
+         }
+      },
+      "arrs&strs":{
+         "easy":{
+            "questions":[
+               {
+                  "question":"Which of the following refers to characteristics of an array?",
+                  "answers":[
+                     "An array is a set of similar data items",
+                     "An array is a set of distinct data items",
+                     "An array can hold different types of datatypes",
+                     "None of the above"
+                  ],
+                  "answer":"An array is a set of similar data items"
+               },
+               {
+                  "question":"If we stored five elements or data items in an array, what will be the index of the last data item?",
+                  "answers":[
+                     "3",
+                     "4",
+                     "5",
+                     "88"
+                  ],
+                  "answer":"4"
+               },
+               {
+                  "question":"Which of the following is the correct syntax for declaring the array?",
+                  "answers":[
+                     "init array []",
+                     "int array [5];",
+                     "Array[5];",
+                     "None of the above"
+                  ],
+                  "answer":"int array [5];"
+               },
+               {
+                  "question":"Which of the following is the correct syntax for printing the first element?",
+                  "answers":[
+                     "array[0]",
+                     "array[1]",
+                     "array",
+                     "None of the above"
+                  ],
+                  "answer":"array[0]"
+               },
+               {
+                  "question":"Which of the following gives the 4th element of the array?",
+                  "answers":[
+                     "Array[0];",
+                     "Array(3);",
+                     "Array[3];",
+                     "None of the above"
+                  ],
+                  "answer":"Array[3];"
+               },
+               {
+                  "question":"Which type of memory is used by an Array in C++ programming language?",
+                  "answers":[
+                     "Contiguous",
+                     "None-contiguous",
+                     "Both A and B",
+                     "None of the above"
+                  ],
+                  "answer":"Contiguous"
+               },
+               {
+                  "question":"What is an array of the one-dimensional arrays called?",
+                  "answers":[
+                     "Single Dimensional array",
+                     "Multi-Dimensional array",
+                     "2D Array (or 2-Dimensional array)",
+                     "Both A and B"
+                  ],
+                  "answer": "2D Array (or 2-Dimensional array)"
+                }
+            ]
+         },
+         "medium":{
+            "questions":[
+               {
+                  "question":"What is the correct definition of an array?",
+                  "answers":[
+                     "An array is a series of elements of the same type in contiguous memory locations",
+                     "An array is a series of element",
+                     "An array is a series of elements of the same type placed in non-contiguous memory locations",
+                     "An array is an element of the different type"
+                  ],
+                  "answer":"An array is a series of elements of the same type in contiguous memory locations"
+               },
+               {
+                  "question":"Which of the following gives the memory address of the first element in an array?",
+                  "answers":[
+                     "array[0];",
+                     "array[1];",
+                     "array();",
+                     "array;"
+                  ],
+                  "answer":"array;"
+               },
+               {
+                  "question":"Which library is used to manipulate strings?",
+                  "answers":[
+                     "iostream",
+                     "iomanip",
+                     "string",
+                     "container"
+                  ],
+                  "answer":"string"
+               },
+               {
+                  "question":"What is the maximum number of parameters a string constructor takes?",
+                  "answers":[
+                     "1",
+                     "2",
+                     "3",
+                     "4"
+                  ],
+                  "answer":"3"
+               },
+               {
+                  "question":"Which constant member function does not modify a string?",
+                  "answers":[
+                     "bool empty()",
+                     "assign",
+                     "append",
+                     "delete"
+                  ],
+                  "answer":"bool empty()"
+               },
+               {
+                  "question":"What is the difference between unsigned int length() and unsigned int size()?",
+                  "answers":[
+                     "Both can return a different value",
+                     "They are same",
+                     "Both return the length",
+                     "None of the above"
+                  ],
+                  "answer":"Both can return a different value"
+               },
+               {
+                  "question":"How many parameters can a resize method take?",
+                  "answers":[
+                     "1",
+                     "2",
+                     "1 or 2",
+                     "3"
+                  ],
+                  "answer":"1 or 2"
+               }
+            ]
+         },
+         "hard":{
+            "questions":[
+               {
+                  "question":"Which of the following is correct about remove_extent() function?",
+                  "answers":[
+                     "Removes the given dimension from an array",
+                     "Removes the first dimension from the right of the array",
+                     "Removes the first dimension from the left of the array",
+                     "Removes the last dimension from the left of the array"
+                  ],
+                  "answer":"Removes the first dimension from the left of the array"
+               },
+               {
+                  "question":"Which of the header file is used for array type manipulation?",
+                  "answers":[
+                     "<array>",
+                     "<type_traits>",
+                     "<iostream>",
+                     "std namespace"
+                  ],
+                  "answer":"<array>"
+               },
+               {
+                  "question":"What is the use of is_array() function in C++?",
+                  "answers":[
+                     "To check if a variable is array type or not",
+                     "To check if a variable is 1-D array type or not",
+                     "To check if a variable is 2-D array type or not",
+                     "To check if a variable is 1-D or 2-D array type or not"
+                  ],
+                  "answer":"To check if a variable is array type or not"
+               },
+               {
+                  "question":"What is the use of is_same() function in C++?",
+                  "answers":[
+                     "To check if a variable is array type or not",
+                     "To check whether two variables have the same characteristics",
+                     "To check if two variable is of array type or not",
+                     "To check whether two variables are different or not"
+                  ],
+                  "answer":"To check whether two variables have the same characteristics"
+               },
+               {
+                  "question":"What is the use of rank() function in C++?",
+                  "answers":[
+                     "Returns size of each dimension",
+                     "Returns how many total elements can be stored in an array",
+                     "Returns how many elements are in array currently",
+                     "Returns the dimension of an array"
+                  ],
+                  "answer":" Returns the dimension of an array"
+               },
+               {
+                  "question":"Which of the following is correct about extent() function?",
+                  "answers":[
+                     "Returns how many elements are in array currently",
+                     "Returns the size of the 1st dimension",
+                     "Returns how many total elements can be stored in an array",
+                     "Returns the size of a given dimension"
+                  ],
+                  "answer":"Returns the size of a given dimension "
+               },
+               {
+                  "question":"Which of the following is correct about remove_all_extents() function?",
+                  "answers":[
+                     "Removes the all dimension from an array",
+                     "Removes the first dimension from the left of the array",
+                     "Removes the last dimension from the left of the array",
+                     "Removes the first dimension from the right of the array"
+                  ],
+                  "answer":"Removes the all dimension from an array"
+               }
+            ]
+         }
+      }
+   }
+]
